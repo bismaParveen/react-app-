@@ -4,7 +4,7 @@ const Users = (props) => {
   return (
     <>
       <div className="container">
-        <div className="row">
+        <div className="row my-3">
           {props.userList.map(({ imageUrl, title, desc }, index) => {
             return (
               <div className="col-md-4" key={index}>

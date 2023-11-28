@@ -1,7 +1,8 @@
-import React, { useState } from "react";
 import Navbar from "./components/Navbar";
+import About from "./components/About";
 import Users from "./components/Users";
 
+// import About from "./components/About";
 function App(props) {
   let userList = [
     {
@@ -24,6 +25,7 @@ function App(props) {
     <>
       <Navbar title="Bisma"/>
       <Users userList={userList}/>
+      <About />
       
     </>
   );
